@@ -39,7 +39,7 @@ const Education = () => {
                     >
                         <div className="flex items-center gap-3 mb-8">
                             <Award className="text-cyan-500" size={32} />
-                            <h2 className="text-3xl font-bold text-white">Certifications</h2>
+                            <h2 className="text-3xl font-bold text-white">Achievements and Credentials</h2>
                         </div>
 
                         <div className="space-y-4">
@@ -47,7 +47,8 @@ const Education = () => {
                                 "Gen AI & LLM",
                                 "ML & AI",
                                 "JAVA Certification",
-                                "TCS NQT Score 71.01% (July 2025)"
+                                "TCS NQT Score 71.01% (July 2025)",
+                                "IBM RAG and Agentic AI"
                             ].map((cert, index) => (
                                 <div key={index} className="bg-slate-800 p-4 rounded-lg border border-slate-700 flex items-center gap-3 hover:translate-x-2 transition-transform">
                                     <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
